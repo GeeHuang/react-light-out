@@ -99,7 +99,14 @@ class Board extends Component {
   render() {
     // if the game is won, just show a winning msg & render nothing else
     if(this.state.hasWon){
-      return <h1>YOU WON!!</h1>;
+      return (
+        <div className="container">
+          <div className="winner">
+            <span className="neon">You</span>
+            <span className="flux">Win</span>
+          </div>
+      </div>
+        ); 
     }
     // TODO
 

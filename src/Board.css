@@ -35,6 +35,10 @@
   -webkit-animation: neon 1s ease infinite;
 }
 
+.winner .neon, .winner .flux {
+  font-size: 200px;
+}
+
 @keyframes neon {
   0%,
   100% {
